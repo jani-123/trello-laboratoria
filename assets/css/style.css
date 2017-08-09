@@ -1,0 +1,135 @@
+/*
+Colores & tipografía:
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */ 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+	font-size: 5px;
+}
+
+body{
+	background-color: #0097a7;
+}
+
+#titulo{
+	background-size: cover; /*cubre todo el elemento*/
+	background-color: #006064;
+	padding: 5px 0; /*relleno*/
+}
+
+.titulo h4{
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+/* Añade Lista */
+#insertaLista{
+	
+	background-color: #b2dfdb;
+	width: 50px;
+	height: 20px;
+	padding: 5px 0; /*relleno*/
+	margin: 10px 10px 10px 10px;
+}
+
+/*
+.titulo h2{
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	font-size: 5rem;
+	line-height: 5rem;
+	color: white;
+	padding: 0 30px;
+}
+
+.titulo p{
+	text-align: right;
+    font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	color: white;
+    padding: 0 30px;
+}
+
+.uno{
+	background-image: url('../img/uno.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+}
+
+/* seccion texto */
+
+#texto{
+	background-size: cover; /*cubre todo el elemento*/
+	background-position: center;
+	background-color: #ABE188;
+	padding: 50px 0; /*relleno*/
+	margin: 20px 0;
+}
+
+.texto{
+	color: white;
+	width: 60%;
+	height: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 60px 30px;
+	background-color: #F78E69;
+	background-position: center;
+}
+
+.texto h4{
+	font-weight: bolder;
+	font-size: 3rem;
+	line-height: 3rem;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.texto p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+/* Seccion Pictures */
+
+.Pictures{
+	background-size: cover; /*cubre todo el elemento*/
+	background-position: center;
+	background-color: #ABE188;
+	padding: 50px 0; /*relleno*/
+	margin: 20px 0;
+}
+
+.Pictures h3{
+	font-weight: bolder;
+	font-size: 3rem;
+	line-height: 3rem;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: white;
+}
+
+.pandaImg{
+	
+	background-position: center;
+    padding-right: 0 5px;
+	border: 10px solid white;
+	margin-right: 30px;
+
+}
+
+/* Footer */
+footer{
+	color: white;
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+}
